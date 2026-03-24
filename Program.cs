@@ -1,5 +1,5 @@
 ﻿
-namespace WypozyczalniaSprzetu;
+namespace WypozyczalniaSp;
 class Program
 {
     static void Main(string[] args)

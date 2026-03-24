@@ -1,7 +1,7 @@
-using WypozyczalniaSprzetu.Model;
-using WypozyczalniaSprzetu.Pomocnicze;
+using WypozyczalniaSp.Model;
+using WypozyczalniaSp.Pomocnicze;
 
-namespace WypozyczalniaSprzetu.Serwisy;
+namespace WypozyczalniaSp.Serwisy;
 
 public class SerwisWypozyczalni
 {

@@ -1,6 +1,6 @@
 using WypozyczalniaSp.Model;
 
-namespace WypozyczalniaSprzetu.Serwisy;
+namespace WypozyczalniaSp.Serwisy;
 
 public class PolitykaWypozyczen
 {
