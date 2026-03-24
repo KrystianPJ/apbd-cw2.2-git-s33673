@@ -1,4 +1,14 @@
+C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\bin\Debug\net8.0\WypozyczalniaSp.exe
+C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\bin\Debug\net8.0\WypozyczalniaSp.deps.json
+C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\bin\Debug\net8.0\WypozyczalniaSp.runtimeconfig.json
+C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\bin\Debug\net8.0\WypozyczalniaSp.dll
+C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\bin\Debug\net8.0\WypozyczalniaSp.pdb
 C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\obj\Debug\net8.0\WypozyczalniaSp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\obj\Debug\net8.0\WypozyczalniaSp.AssemblyInfoInputs.cache
 C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\obj\Debug\net8.0\WypozyczalniaSp.AssemblyInfo.cs
 C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\obj\Debug\net8.0\WypozyczalniaSp.csproj.CoreCompileInputs.cache
+C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\obj\Debug\net8.0\WypozyczalniaSp.dll
+C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\obj\Debug\net8.0\refint\WypozyczalniaSp.dll
+C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\obj\Debug\net8.0\WypozyczalniaSp.pdb
+C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\obj\Debug\net8.0\WypozyczalniaSp.genruntimeconfig.cache
+C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\obj\Debug\net8.0\ref\WypozyczalniaSp.dll

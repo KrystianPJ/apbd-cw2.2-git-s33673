@@ -67,10 +67,10 @@ public class SerwisWypozyczalni
     {
         var sprzet = _sprzety.FirstOrDefault(s => s.Id == idSprzetu);
         if (sprzet == null)
-            return WynikOperacji.Blad("Nie znaleziono sprzętu.");
+            return WynikOperacji.Blad("Nie znaleziono sprzętu");
 
         sprzet.UstawStatus(StatusSprzetu.Niedostepny);
-        return WynikOperacji.Sukces($"Sprzęt {sprzet.Nazwa} oznaczono jako niedostępny.");
+        return WynikOperacji.Sukces($"Sprzęt {sprzet.Nazwa} oznaczono jako niedostępny");
     }
 
     public WynikOperacji Wypozycz(string idUzytkownika, string idSprzetu, int liczbaDni)
@@ -84,13 +84,13 @@ public class SerwisWypozyczalni
             return WynikOperacji.Blad("Nie znaleziono sprzętu");
 
         if (sprzet.Status != StatusSprzetu.Dostepny)
-            return WynikOperacji.Blad("Sprzęt nie jest dostępny do wypożyczenia ");
+            return WynikOperacji.Blad("Sprzęt nie jest dostępny do wypożyczenia");
 
         int aktywneWypozyczenia = _wypozyczenia.Count(w => w.Uzytkownik.Id == idUzytkownika && w.CzyAktywne);
         int limit = _polityka.PobierzLimitDla(uzytkownik);
 
         if (aktywneWypozyczenia >= limit)
-            return WynikOperacji.Blad($"Użytkownik przekroczył limit aktywnych wypożyczeń limit: {limit}");
+            return WynikOperacji.Blad($"Użytkownik przekroczył limit aktywnych wypożyczeń Limit: {limit}");
 
         var wypozyczenie = new Wypozyczenie(_generator.NoweIdWypozyczenia(), uzytkownik, sprzet, DateTime.Now, liczbaDni);
         _wypozyczenia.Add(wypozyczenie);
@@ -101,8 +101,7 @@ public class SerwisWypozyczalni
 
     public WynikOperacji Zwroc(string idSprzetu, DateTime dataZwrotu)
     {
-        var wypozyczenie = _wypozyczenia
-            .LastOrDefault(w => w.Sprzet.Id == idSprzetu && w.CzyAktywne);
+        var wypozyczenie = _wypozyczenia.LastOrDefault(w => w.Sprzet.Id == idSprzetu && w.CzyAktywne);
 
         if (wypozyczenie == null)
             return WynikOperacji.Blad("Nie znaleziono aktywnego wypożyczenia dla tego sprzętu");
@@ -111,19 +110,7 @@ public class SerwisWypozyczalni
         wypozyczenie.OznaczZwrot(dataZwrotu, kara);
         wypozyczenie.Sprzet.UstawStatus(StatusSprzetu.Dostepny);
 
-        return WynikOperacji.Sukces($"Sprzęt zwrócono Kara-> {kara} zł");
-    }
-
-    public List<Wypozyczenie> PobierzAktywneWypozyczeniaUzytkownika(string idUzytkownika)
-    {
-        return _wypozyczenia
-            .Where(w => w.Uzytkownik.Id == idUzytkownika && w.CzyAktywne)
-            .ToList();
-    }
-
-    public List<Wypozyczenie> PobierzPrzeterminowaneWypozyczenia()
-    {
-        return _wypozyczenia.Where(w => w.CzyPrzeterminowane).ToList();
+        return WynikOperacji.Sukces($"Sprzęt zwrócono Kara: {kara} zł");
     }
 
     public string GenerujRaport()
