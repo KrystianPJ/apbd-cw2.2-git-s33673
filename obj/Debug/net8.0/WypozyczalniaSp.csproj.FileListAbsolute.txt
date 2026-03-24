@@ -1,0 +1,4 @@
+C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\obj\Debug\net8.0\WypozyczalniaSp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\obj\Debug\net8.0\WypozyczalniaSp.AssemblyInfoInputs.cache
+C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\obj\Debug\net8.0\WypozyczalniaSp.AssemblyInfo.cs
+C:\Users\Laptop\apbd-cw2.2-git-s33673\WypozyczalniaSp\obj\Debug\net8.0\WypozyczalniaSp.csproj.CoreCompileInputs.cache

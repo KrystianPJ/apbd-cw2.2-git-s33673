@@ -1,4 +1,4 @@
-namespace WypozyczalniaSP.Modele;
+namespace WypozyczalniaSP.Model;
 
 public enum StatusSprzetu
 {
