@@ -1,4 +1,4 @@
-namespace WypozyczalniaSp.Modele;
+namespace WypozyczalniaSp.Model;
 
 public class Sluchacz : Uzytkownik
 {
