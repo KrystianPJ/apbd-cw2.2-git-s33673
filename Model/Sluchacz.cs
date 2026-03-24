@@ -1,19 +1,19 @@
-namespace WypozyczalniaSp.Model;
+namespace WypozyczalniaSp.Modele;
 
-public class Aparat : Sprzet
+public class Sluchacz : Uzytkownik
 {
-    public int Megapiksele { get; }
-    public bool Czy4K { get; }
+    public string Kierunek { get; }
+    public int Semestr { get; }
 
-    public Aparat(string id, string nazwa, int megapiksele, bool czy4K)
-        : base(id, nazwa)
+    public Sluchacz(string id, string imie, string nazwisko, string kierunek, int semestr)
+        : base(id, imie, nazwisko, TypUzytkownika.Sluchacz)
     {
-        Megapiksele = megapiksele;
-        Czy4K = czy4K;
+        Kierunek = kierunek;
+        Semestr = semestr;
     }
 
     public override string ToString()
     {
-        return $"{base.ToString()} | MP: {Megapiksele} | 4K: {(Czy4K ? "Tak" : "Nie")}";
+        return $"{base.ToString()} | Kierunek: {Kierunek} | Semestr: {Semestr}";
     }
 }

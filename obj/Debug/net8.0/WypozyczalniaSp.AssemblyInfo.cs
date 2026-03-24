@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WypozyczalniaSp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b5c3904c1ac3a94481f4b88a01ff18f72bc8464")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcc632291b0eba259254dd7d02fb31014c9dbaa9")]
 [assembly: System.Reflection.AssemblyProductAttribute("WypozyczalniaSp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WypozyczalniaSp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
