@@ -5,10 +5,9 @@ Prosty program projektu przedstawiajacy  aplikacje konsolową działjąco w C#, 
 
 
 Zastosowane elementy: 
- - Abstrakcyjna klasa Sprzet
+ - Abstrakcyjna klasa Sprzet, Uzytkownik
  - klasa dziedziczące, Laptop ,Rzutnik Wypozyczenie
  Aparat, sluchacz , pracownik ,Uczleni 
- - Abstrakcyjna klasa Uzytkownik 
 
 W projekcie w folderach model  zawarte są wyłącznie dane i podstawowoe zachowanie obiektów, natomiast w Serwis_Wypozyczalni odpowida za operacje biznesowe (między innymi: wypozyczenie zwrot, raport).
 Kolejena Kalsa PolitykaWypozyczen - przechowuje reguły biznesowe dotyczące limitów i naliczanie kar. 
